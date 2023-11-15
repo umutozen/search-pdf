@@ -1,4 +1,5 @@
 from googlesearch import search
+from rich import print
 import itertools
 
 def search_pdf_books(book_title, num_results=5):
